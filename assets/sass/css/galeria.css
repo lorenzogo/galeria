@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/**--------GALERÍA--------------*/
+body {
+  font-size: 16px;
+}
+
+#caja {
+  height: 500px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.mini {
+  width: 70px;
+  margin: 2px;
+}
+
+.caja_mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+}
+
+.visor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.obra {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#mostrar_ficha {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  color: red;
+}
+
+#mostrar_ficha:hover {
+  color: green;
+}
+
+#ficha {
+  background-color: yellow;
+  height: 80px;
+  width: 200px;
+  padding: 1em;
+}
+
+.boton {
+  height: 50px;
+  width: 100%;
+}
+
+.visible {
+  display: block;
+}
+
+.oculto {
+  display: none;
+}
+/*# sourceMappingURL=galeria.css.map */
